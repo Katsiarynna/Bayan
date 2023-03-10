@@ -84,7 +84,7 @@
         margin:2% 60% -3% 15%;
     }
     body {
-        background-color: rgb(154, 37, 37);
+        background-color: rgb(171, 45, 50);
     }
     .bayan-container {
         margin: 5% 0;
@@ -106,7 +106,7 @@
     }
     .bayan-container label {
         cursor: pointer;
-        background-color: rgb(200, 75, 98);
+        background-color: rgb(163, 54, 74);
         display: block;
         padding: 1% 2%;
         width: 70%;
@@ -127,7 +127,7 @@
     .bayan-container label:hover:before {
         content: '\276F';
         float: right;
-        color: #6b1a35;
+        color: #832d4a;
     }
 
     .bayan-container input:checked + label {
@@ -162,7 +162,7 @@
         margin:2% 60% -3% 15%;
     }
     body {
-        background-color: rgb(21, 112, 97);
+        background-color: rgb(96, 180, 201);
     }
     .bayan-container {
         margin: 5% 0;
@@ -184,7 +184,7 @@
     }
     .bayan-container label {
         cursor: pointer;
-        background-color: rgb(14, 138, 109);
+        background-color: rgb(31, 98, 117);
         display: block;
         padding: 1% 2%;
         width: 70%;
