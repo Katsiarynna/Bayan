@@ -1,0 +1,258 @@
+@media  (min-width:1080px) and (max-width:1920px)
+{
+    .name {
+        text-align: center;
+    }
+    body {
+        background-color: rgb(226, 223, 124);
+    }
+    .bayan-container {
+        margin: 20px 0;
+    }
+    .bayan-container .bayan-body {
+        margin: 0 auto;
+        height: 0;
+        line-height: 18px;
+        padding: 0 30px;
+        transition: color 0.5s, padding 0.5s;
+        overflow: hidden;
+        font-family: Verdana, sans-serif; 
+        font-size: 16px;
+        box-shadow: 0 4px 8px rgba(227, 84, 84, 0.2), 0 10px 16px rgba(197, 18, 18, 0.2);
+    }
+    .bayan-container .bayan-body  div {
+        margin: 0 0 10px;
+    }
+    .bayan-container label {
+        cursor: pointer;
+        background-color: rgb(213, 209, 95);
+        display: block;
+        padding: 15px 20px;
+        width: 70%;
+        font-weight: 200;
+        z-index: 80;
+        font-family: Verdana, sans-serif;   
+        font-size: 18px;
+        margin: 1% 15% 1% 15%;
+        transition: color .35s;
+        box-shadow: 0 4px 8px rgba(184, 222, 36, 0.2), 0 10px 16px rgba(234, 241, 13, 0.2);
+    }
+    .bayan-container label:hover {
+        color: rgba(255, 255, 255, 0.92);
+    }
+    .bayan-container input{
+        display: none;
+    }
+    .bayan-container label:hover:before {
+        content: '\276F';
+        float: right;
+        color: #ae8c13;
+    }
+
+    .bayan-container input:checked + label {
+        background-color: #d5b02a;
+        color: #FFF;
+        box-shadow: 0 8px 26px rgba(207, 38, 38, 0.4), 0 28px 30px rgba(219, 11, 11, 0.3);
+    }
+    .bayan-container input:checked + label:before {
+
+        transform: rotate(90deg);
+    }
+    .bayan-container input:checked + label + .bayan-body {
+        height: auto;
+        margin-top: -5px;
+        color: rgb(66, 58, 13);
+        padding: 20px 30px 10px;
+    }
+    .bayan-body {
+        width: 40%;
+        height: 40%;
+    }
+    
+
+    div#text {
+        position: relative;
+    }.text:hover{
+        position: absolute;
+        top: 50%;
+        text-transform: uppercase;
+        color: #BFE2FF;
+        width: 350px;
+        background: #00000094;
+        padding: 10px;
+        text-align: center;
+        font: bold 24px/34px Helvetica, Sans-Serif;
+    }
+    
+     
+}
+@media  (min-width:820px) and (max-width:1180px)
+{
+    .name {
+        text-align: center;
+    }
+    body {
+        background-color: rgb(226, 223, 124);
+    }
+    .bayan-container {
+        margin: 20px 0;
+    }
+    .bayan-container .bayan-body {
+        margin: 0 auto;
+        height: 0;
+        line-height: 18px;
+        padding: 0 30px;
+        transition: color 0.5s, padding 0.5s;
+        overflow: hidden;
+        font-family: Verdana, sans-serif; 
+        font-size: 16px;
+        box-shadow: 0 4px 8px rgba(227, 84, 84, 0.2), 0 10px 16px rgba(197, 18, 18, 0.2);
+    }
+    .bayan-container .bayan-body  div {
+        margin: 0 0 10px;
+    }
+    .bayan-container label {
+        cursor: pointer;
+        background-color: #dad126;
+        display: block;
+        padding: 15px 20px;
+        width: 100%;
+        font-weight: 200;
+        z-index: 100;
+        font-family: Verdana, sans-serif;   
+        font-size: 18px;
+        margin: 0 0 5px;
+        transition: color .35s;
+    }
+    .bayan-container label:hover {
+        color: #FFF;
+    }
+    .bayan-container input{
+        display: none;
+    }
+    .bayan-container label:before {
+        content: '\276F';
+        float: right;
+    }
+    .bayan-container input:checked + label {
+        background-color: #ae8c13;
+        color: #FFF;
+        box-shadow: 0 8px 26px rgba(0,0,0,0.4), 0 28px 30px rgba(0,0,0,0.3);
+    }
+    .bayan-container input:checked + label:before {
+        transition: transform .35s;
+        transform: rotate(90deg);
+    }
+    .bayan-container input:checked + label + .bayan-body {
+        height: auto;
+        margin-top: -5px;
+        color: #000;
+        padding: 20px 30px 10px;
+    }
+    .bayan-body {
+        width: 40%;
+        height: 40%;
+    }
+    
+
+    div#text {
+        position: relative;
+    }.text:hover{
+        position: absolute;
+        top: 50%;
+        text-transform: uppercase;
+        color: #BFE2FF;
+        width: 350px;
+        background: #00000094;
+        padding: 10px;
+        text-align: center;
+        font: bold 24px/34px Helvetica, Sans-Serif;
+    }
+    
+     
+}
+@media  (min-width:320px) and (max-width:568px)
+{
+    .name {
+        text-align: center;
+    }
+    body {
+        background-color: rgb(226, 223, 124);
+    }
+    .bayan-container {
+        margin: 20px 0;
+    }
+    .bayan-container .bayan-body {
+        margin: 0 auto;
+        height: 0;
+        line-height: 18px;
+        padding: 0 30px;
+        transition: color 0.5s, padding 0.5s;
+        overflow: hidden;
+        font-family: Verdana, sans-serif; 
+        font-size: 16px;
+        box-shadow: 0 4px 8px rgba(227, 84, 84, 0.2), 0 10px 16px rgba(197, 18, 18, 0.2);
+    }
+    .bayan-container .bayan-body  div {
+        margin: 0 0 10px;
+    }
+    .bayan-container label {
+        cursor: pointer;
+        background-color: #dad126;
+        display: block;
+        padding: 15px 20px;
+        width: 100%;
+        font-weight: 200;
+        z-index: 100;
+        font-family: Verdana, sans-serif;   
+        font-size: 18px;
+        margin: 0 0 5px;
+        transition: color .35s;
+    }
+    .bayan-container label:hover {
+        color: #FFF;
+    }
+    .bayan-container input{
+        display: none;
+    }
+    .bayan-container label:before {
+        content: '\276F';
+        float: right;
+    }
+    .bayan-container input:checked + label {
+        background-color: #ae8c13;
+        color: #FFF;
+        box-shadow: 0 8px 26px rgba(0,0,0,0.4), 0 28px 30px rgba(0,0,0,0.3);
+    }
+    .bayan-container input:checked + label:before {
+        transition: transform .35s;
+        transform: rotate(90deg);
+    }
+    .bayan-container input:checked + label + .bayan-body {
+        height: auto;
+        margin-top: -5px;
+        color: #000;
+        padding: 20px 30px 10px;
+    }
+    .bayan-body {
+        width: 40%;
+        height: 40%;
+    }
+    
+
+    div#text {
+        position: relative;
+    }.text:hover{
+        position: absolute;
+        top: 50%;
+        text-transform: uppercase;
+        color: #BFE2FF;
+        width: 350px;
+        background: #00000094;
+        padding: 10px;
+        text-align: center;
+        font: bold 24px/34px Helvetica, Sans-Serif;
+    }
+    
+     
+}
