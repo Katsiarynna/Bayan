@@ -84,7 +84,7 @@
         margin:2% 60% -3% 15%;
     }
     body {
-        background-color: rgb(171, 45, 50);
+        background-color: rgb(114, 214, 146);
     }
     .bayan-container {
         margin: 5% 0;
@@ -106,7 +106,7 @@
     }
     .bayan-container label {
         cursor: pointer;
-        background-color: rgb(163, 54, 74);
+        background-color: rgb(95, 186, 140);
         display: block;
         padding: 1% 2%;
         width: 70%;
@@ -127,7 +127,7 @@
     .bayan-container label:hover:before {
         content: '\276F';
         float: right;
-        color: #832d4a;
+        color: #3ba5a4;
     }
 
     .bayan-container input:checked + label {
@@ -205,7 +205,7 @@
     .bayan-container label:hover:before {
         content: '\276F';
         float: right;
-        color: #196250;
+        color: #588fa3;
     }
 
     .bayan-container input:checked + label {
