@@ -84,7 +84,7 @@
         margin:2% 60% -3% 15%;
     }
     body {
-        background-color: rgb(114, 214, 146);
+        background-color: rgb(78, 63, 73);
     }
     .bayan-container {
         margin: 5% 0;
@@ -106,7 +106,7 @@
     }
     .bayan-container label {
         cursor: pointer;
-        background-color: rgb(95, 186, 140);
+        background-color: rgb(129, 90, 114);
         display: block;
         padding: 1% 2%;
         width: 70%;
@@ -127,13 +127,13 @@
     .bayan-container label:hover:before {
         content: '\276F';
         float: right;
-        color: #3ba5a4;
+        color: #a06070;
     }
 
     .bayan-container input:checked + label {
-        background-color: #b52897;
+        background-color: #9a5b67;
         color: #FFF;
-        box-shadow: 0 0.5em 1.7em rgba(207, 38, 38, 0.4), 0 28px 30px rgba(219, 11, 11, 0.3);
+        box-shadow: 0 0.5em 1.7em rgba(176, 68, 68, 0.4), 0 28px 30px rgba(76, 41, 41, 0.3);
     }
     .bayan-container input:checked + label:before {
         transform: rotate(90deg);
@@ -162,7 +162,7 @@
         margin:2% 60% -3% 15%;
     }
     body {
-        background-color: rgb(96, 180, 201);
+        background-color: rgb(73, 90, 95);
     }
     .bayan-container {
         margin: 5% 0;
@@ -176,7 +176,7 @@
         overflow: hidden;
         font-family: Verdana, sans-serif; 
         font-size: 12%;
-        box-shadow: 0 0.1em 0.5em rgba(227, 84, 84, 0.2), 0 10px 16px rgba(197, 18, 18, 0.2);
+        box-shadow: 0 0.1em 0.5em rgba(165, 152, 152, 0.2), 0 10px 16px rgba(137, 119, 119, 0.2);
     }
     .bayan-container .bayan-body  div {
         margin: 0 0 3%;
@@ -184,7 +184,7 @@
     }
     .bayan-container label {
         cursor: pointer;
-        background-color: rgb(31, 98, 117);
+        background-color: rgb(77, 93, 97);
         display: block;
         padding: 1% 2%;
         width: 70%;
@@ -205,13 +205,13 @@
     .bayan-container label:hover:before {
         content: '\276F';
         float: right;
-        color: #588fa3;
+        color: #4e5456;
     }
 
     .bayan-container input:checked + label {
-        background-color: #0b6e85;
+        background-color: #365157;
         color: #FFF;
-        box-shadow: 0 0.5em 1.7em rgba(16, 65, 99, 0.4), 0 28px 30px rgba(13, 68, 150, 0.3);
+        box-shadow: 0 0.5em 1.7em rgba(58, 73, 84, 0.4), 0 28px 30px rgba(105, 145, 204, 0.3);
     }
     .bayan-container input:checked + label:before {
         transform: rotate(90deg);
