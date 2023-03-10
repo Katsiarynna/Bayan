@@ -1,2 +1,2 @@
-https://github.com/Katsiarynna/Bayan/tree/gh-pages/cssBayan
+https://github.com/Katsiarynna/Bayan/cssBayan/index.html
 
