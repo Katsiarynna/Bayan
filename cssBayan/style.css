@@ -22,6 +22,7 @@
     }
     .bayan-container .bayan-body  div {
         margin: 0 0 10px;
+        
     }
     .bayan-container label {
         cursor: pointer;
@@ -55,37 +56,28 @@
         box-shadow: 0 8px 26px rgba(207, 38, 38, 0.4), 0 28px 30px rgba(219, 11, 11, 0.3);
     }
     .bayan-container input:checked + label:before {
-
         transform: rotate(90deg);
     }
     .bayan-container input:checked + label + .bayan-body {
         height: auto;
         margin-top: -5px;
-        color: rgb(66, 58, 13);
+        color: rgb(234, 230, 213);
         padding: 20px 30px 10px;
     }
     .bayan-body {
         width: 40%;
         height: 40%;
-    }
-    
-
-    div#text {
         position: relative;
-    }.text:hover{
-        position: absolute;
-        top: 50%;
-        text-transform: uppercase;
-        color: #BFE2FF;
-        width: 350px;
-        background: #00000094;
-        padding: 10px;
-        text-align: center;
-        font: bold 24px/34px Helvetica, Sans-Serif;
     }
-    
-     
-}
+    .text{
+        position: absolute;
+        font: bold 24px/34px Helvetica, Sans-Serif;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }  
+} 
+
 @media  (min-width:820px) and (max-width:1180px)
 {
     .name {
@@ -156,17 +148,18 @@
     
 
     div#text {
-        position: relative;
-    }.text:hover{
+        position: absolute;
+    }.text{
         position: absolute;
         top: 50%;
         text-transform: uppercase;
         color: #BFE2FF;
         width: 350px;
-        background: #00000094;
+        background: #bcdf2294;
         padding: 10px;
         text-align: center;
         font: bold 24px/34px Helvetica, Sans-Serif;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     }
     
      
@@ -240,19 +233,5 @@
     }
     
 
-    div#text {
-        position: relative;
-    }.text:hover{
-        position: absolute;
-        top: 50%;
-        text-transform: uppercase;
-        color: #BFE2FF;
-        width: 350px;
-        background: #00000094;
-        padding: 10px;
-        text-align: center;
-        font: bold 24px/34px Helvetica, Sans-Serif;
-    }
-    
-     
-}
+}  
+
