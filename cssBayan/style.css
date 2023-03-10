@@ -71,7 +71,7 @@
     }
     .text{
         position: absolute;
-        font: bold 24px/30px Helvetica, Sans-Serif;
+        font: bold 24px/34px Helvetica, Sans-Serif;
         padding-left: 1.2em;
         padding-right: 1.2em;
 
@@ -151,7 +151,7 @@
     }
     .text{
         position: absolute;
-        font: bold 24px/34px Helvetica, Sans-Serif;
+        font: bold 20px/30px Helvetica, Sans-Serif;
         padding-left: 1.2em;
         padding-right: 1.2em;
     }  
@@ -229,7 +229,7 @@
     }
     .text{
         position: absolute;
-        font: bold 1.5em/2em Helvetica, Sans-Serif;
+        font: bold 14px/18px Helvetica, Sans-Serif;
         padding-left: 1.2em;
         padding-right: 1.2em;
 
