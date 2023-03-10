@@ -84,7 +84,7 @@
         margin:2% 60% -3% 15%;
     }
     body {
-        background-color: rgb(78, 63, 73);
+        background-color: rgb(119, 102, 114);
     }
     .bayan-container {
         margin: 5% 0;
@@ -106,7 +106,7 @@
     }
     .bayan-container label {
         cursor: pointer;
-        background-color: rgb(129, 90, 114);
+        background-color: rgb(187, 154, 175);
         display: block;
         padding: 1% 2%;
         width: 70%;
@@ -127,11 +127,11 @@
     .bayan-container label:hover:before {
         content: '\276F';
         float: right;
-        color: #a06070;
+        color: #d7aab6;
     }
 
     .bayan-container input:checked + label {
-        background-color: #9a5b67;
+        background-color: #a18389;
         color: #FFF;
         box-shadow: 0 0.5em 1.7em rgba(176, 68, 68, 0.4), 0 28px 30px rgba(76, 41, 41, 0.3);
     }
@@ -162,7 +162,7 @@
         margin:2% 60% -3% 15%;
     }
     body {
-        background-color: rgb(73, 90, 95);
+        background-color: rgb(123, 140, 145);
     }
     .bayan-container {
         margin: 5% 0;
@@ -184,7 +184,7 @@
     }
     .bayan-container label {
         cursor: pointer;
-        background-color: rgb(77, 93, 97);
+        background-color: rgb(139, 161, 166);
         display: block;
         padding: 1% 2%;
         width: 70%;
@@ -205,11 +205,11 @@
     .bayan-container label:hover:before {
         content: '\276F';
         float: right;
-        color: #4e5456;
+        color: #879498;
     }
 
     .bayan-container input:checked + label {
-        background-color: #365157;
+        background-color: #6e929a;
         color: #FFF;
         box-shadow: 0 0.5em 1.7em rgba(58, 73, 84, 0.4), 0 28px 30px rgba(105, 145, 204, 0.3);
     }
