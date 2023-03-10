@@ -84,7 +84,7 @@
         margin:2% 60% -3% 15%;
     }
     body {
-        background-color: rgb(211, 98, 58);
+        background-color: rgb(154, 37, 37);
     }
     .bayan-container {
         margin: 5% 0;
@@ -106,7 +106,7 @@
     }
     .bayan-container label {
         cursor: pointer;
-        background-color: rgb(208, 120, 43);
+        background-color: rgb(200, 75, 98);
         display: block;
         padding: 1% 2%;
         width: 70%;
@@ -127,11 +127,11 @@
     .bayan-container label:hover:before {
         content: '\276F';
         float: right;
-        color: #a02e1a;
+        color: #6b1a35;
     }
 
     .bayan-container input:checked + label {
-        background-color: #892c12;
+        background-color: #b52897;
         color: #FFF;
         box-shadow: 0 0.5em 1.7em rgba(207, 38, 38, 0.4), 0 28px 30px rgba(219, 11, 11, 0.3);
     }
@@ -162,7 +162,7 @@
         margin:2% 60% -3% 15%;
     }
     body {
-        background-color: rgb(72, 34, 132);
+        background-color: rgb(21, 112, 97);
     }
     .bayan-container {
         margin: 5% 0;
@@ -184,7 +184,7 @@
     }
     .bayan-container label {
         cursor: pointer;
-        background-color: rgb(98, 19, 90);
+        background-color: rgb(14, 138, 109);
         display: block;
         padding: 1% 2%;
         width: 70%;
@@ -205,13 +205,13 @@
     .bayan-container label:hover:before {
         content: '\276F';
         float: right;
-        color: #431b44;
+        color: #196250;
     }
 
     .bayan-container input:checked + label {
-        background-color: #660e5b;
+        background-color: #0b6e85;
         color: #FFF;
-        box-shadow: 0 0.5em 1.7em rgba(207, 38, 38, 0.4), 0 28px 30px rgba(219, 11, 11, 0.3);
+        box-shadow: 0 0.5em 1.7em rgba(16, 65, 99, 0.4), 0 28px 30px rgba(13, 68, 150, 0.3);
     }
     .bayan-container input:checked + label:before {
         transform: rotate(90deg);
@@ -229,7 +229,7 @@
     }
     .text{
         position: absolute;
-        font: bold 24px/30px Helvetica, Sans-Serif;
+        font: bold 18px/20px Helvetica, Sans-Serif;
         padding-left: 1.2em;
         padding-right: 1.2em;
 
