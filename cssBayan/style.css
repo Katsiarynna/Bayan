@@ -21,9 +21,9 @@
         box-shadow: 0 0.1em 0.5em rgba(227, 84, 84, 0.2), 0 10px 16px rgba(197, 18, 18, 0.2);
     }
     .bayan-container .bayan-body  div {
-        margin: 0 0 3%;
-        
+        margin: 0 0 3%;    
     }
+
     .bayan-container label {
         cursor: pointer;
         background-color: rgb(213, 209, 95);
@@ -49,6 +49,12 @@
         float: right;
         color: #ae8c13;
     }
+    .bayan-body:hover:before {
+        color: antiquewhite;
+    }
+
+  
+
 
     .bayan-container input:checked + label {
         background-color: #d5b02a;
@@ -58,6 +64,7 @@
     .bayan-container input:checked + label:before {
         transform: rotate(90deg);
     }
+
     .bayan-container input:checked + label + .bayan-body {
         height: auto;
         margin-top: -0.3em;
@@ -229,7 +236,7 @@
     }
     .text{
         position: absolute;
-        font: bold 18px/20px Helvetica, Sans-Serif;
+        font: bold 14px/16px Helvetica, Sans-Serif;
         padding-left: 1.2em;
         padding-right: 1.2em;
 
