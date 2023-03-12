@@ -63,7 +63,7 @@
     .bayan-container input:checked + label + .bayan-body {
         height: auto;
         margin-top: -0.3em;
-        color:rgb(49 41 7);
+        color:rgb(163 156 126);
         padding: 1.1em 1.9em 0.8em;
     }
     .bayan-body {
