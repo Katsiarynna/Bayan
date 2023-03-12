@@ -10,7 +10,6 @@
         margin: 5% 0;
     }
     .bayan-container .bayan-body {
-        width: calc(100% -40px);
         margin: 0 auto;
         height: 0;
         line-height: 3%;
@@ -137,7 +136,7 @@
 
     .bayan-container input:checked + label {
         background-color: rgb(119, 102, 114);
-        color: #FFF;
+        color: #eaa076;
         box-shadow: 0 0.5em 1.7em rgba(176, 68, 68, 0.4), 0 28px 30px rgba(76, 41, 41, 0.3);
     }
     .bayan-container input:checked + label:before {
@@ -147,7 +146,7 @@
     .bayan-container input:checked + label + .bayan-body {
         height: auto;
         margin-top: -0.3em;
-        color: rgb(234, 230, 213);
+        color: rgb(233 39 151);
         padding: 1.1em 1.9em 0.8em;
     }
     .bayan-body {
@@ -192,20 +191,19 @@
     }
     .bayan-container label {
         cursor: pointer;
-        border-top: 3px solid #858125;
+        border-top: 3px solid #132334;
         display: block;
         padding: 1% 2%;
         width: 70%;
         font-weight: 200;
         z-index: 80;
         font-family: Verdana, sans-serif;   
-        font-size: 1.1em;
+        font-size: 0.8em;
         margin: 1% 15% 1% 15%;
         transition: color .35s;
-        box-shadow: 0 0.2em 0.5em rgba(184, 222, 36, 0.2), 0 10px 16px rgba(234, 241, 13, 0.2);
     }
     .bayan-container label:hover {
-        color: rgba(255, 255, 255, 0.92);
+        color: rgba(19, 57, 82, 0.92);
     }
     .bayan-container input{
         display: none;
@@ -218,7 +216,7 @@
 
     .bayan-container input:checked + label {
         background-color: rgb(123, 140, 145);
-        color: rgb(55, 68, 77);
+        color: rgb(132 64 29);
         box-shadow: 0 0.5em 1.7em rgba(58, 73, 84, 0.4), 0 28px 30px rgba(105, 145, 204, 0.3);
     }
     .bayan-container input:checked + label:before {
@@ -229,7 +227,7 @@
     .bayan-container input:checked + label + .bayan-body {
         height: auto;
         margin-top: -0.3em;
-        color: rgb(234, 230, 213);
+        color: rgb(14 58 71);
         padding: 1.1em 1.9em 0.8em;
     }
     .bayan-body {
