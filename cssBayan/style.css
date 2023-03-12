@@ -227,7 +227,7 @@
     .bayan-container input:checked + label + .bayan-body {
         height: auto;
         margin-top: -0.3em;
-        color: rgb(14 58 71);
+        color:#E3F2FD;
         padding: 1.1em 1.9em 0.8em;
     }
     .bayan-body {
@@ -240,9 +240,10 @@
     }
     .text{
         position: absolute;
-        font: bold 14px/16px Helvetica, Sans-Serif;
+        font: bold 12px/14px Helvetica, Sans-Serif;
         padding-left: 1.2em;
         padding-right: 1.2em;
 
     }  
+
 } 
